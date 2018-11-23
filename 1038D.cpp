@@ -8,7 +8,7 @@ int main()
     int n; cin >> n;
     int a[n]; FOR(i,0,n) cin >> a[i];
     sort(a, a+n);
-    int ans = a[n-1];
+    ll ans = a[n-1];
     if(n>1) ans-=a[0];
     FOR(i,1,n-1) ans += abs(a[i]);
     cout << ans << '\n';
