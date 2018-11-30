@@ -13,7 +13,7 @@ int main()
     FOR(i,0,n) tot += 2*i*a[i&1][i] + (2*i+1)*a[(i+1)&1][i];
     ans = tot;
     FOR(i,0,n-1) FOR(j,0,2) p[!j][i+1] = p[!j][i] + 2*(i+1)*a[j][n-i-2] - 2*(i+1)*a[!j][n-i-1];
-    FOR(i,0,n-1) tot += p[((i+1)&1)^(n+1)&1][i+1], ans = tot>ans?tot:ans;
+    FOR(i,0,n-1) tot += p[(((i+1)&1)^(n+1))&1][i+1], ans = tot>ans?tot:ans;
     cout << ans << '\n';
 
     return 0;
