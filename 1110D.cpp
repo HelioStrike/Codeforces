@@ -4,7 +4,7 @@
 #define MAXN 1000010
 using namespace std;
 
-int arr[MAXN],dp[MAXN][7][7];
+int arr[MAXN],dp[MAXN][3][3];
 
 int main()
 {
