@@ -19,7 +19,7 @@ int main()
     FOR(i,0,m*k) { tot+=pq.top().fi; arr[i]=pq.top().se; pq.pop(); }
     sort(arr,arr+m*k);
 
-    cout << tot << '\n';
+    printf("%lli\n",tot);
     for(int i=m-1;i<m*k-1;i+=m) printf("%d ",arr[i]);
     printf("\n");
 
