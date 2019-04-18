@@ -17,7 +17,6 @@ int main()
         else if(c==1 && b>0 && a!=ia) b--,a++;
         else if(a==0) b--;
         else a--;
-        //cout<<b<<' '<<a<<'\n';
         ans++; 
     }
     cout<<ans<<'\n';

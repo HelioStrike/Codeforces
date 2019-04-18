@@ -30,7 +30,7 @@ int main()
     {
         if(ori && i) { ans[k++]=fnd[i],ans[k++]=l; break; }
         l=1,r=n;
-        while(r>l)
+        while(l<r)
         {
             m=(l+r)/2; x1=l,y11=fnd[i],x2=m,y2=fnd[i];
             if(ori) swap(x1,y11),swap(x2,y2);
