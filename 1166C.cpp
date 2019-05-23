@@ -4,7 +4,7 @@
 #define N 200010
 using namespace std;
 
-int n,a[N],ans,j;
+ll n,a[N],ans,j;
 
 int main()
 {
