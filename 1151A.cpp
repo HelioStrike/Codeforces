@@ -2,7 +2,6 @@
 #define FOR(i,a,b) for(int i = (a); i < (b); i++)
 using namespace std;
 
-
 int main()
 {
     int n,k,ops,ans=1e9; string s,g="ACTG"; cin>>n>>s;
