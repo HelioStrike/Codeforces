@@ -9,10 +9,10 @@ ll t,n,h[N],r[N],dp[N][3];
 
 int main()
 {
-    cin>>t;
+    scanf("%lld",&t);
     while(t--)
     {
-        cin>>n; FOR(i,1,n+1) cin>>h[i]>>r[i];
+        cin>>n; FOR(i,1,n+1) scanf("%lld%lld",&h[i],&r[i]);
         FOR(i,1,n+1)
         {
             FOR(j,0,3)
