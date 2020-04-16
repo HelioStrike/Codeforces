@@ -21,8 +21,8 @@ int main()
             cin>>s;
             FOR(j,0,m) col[i*m+j]=s[j]=='0';
         }
-        memset(vis,0,sizeof(vis));
-        memset(blac,0,sizeof(blac));
+        memset(vis,0,n*m*sizeof(bool));
+        memset(blac,0,n*m*sizeof(bool));
         FOR(i,0,n)
         {
             cin>>s;
