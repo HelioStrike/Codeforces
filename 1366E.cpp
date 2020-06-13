@@ -28,7 +28,7 @@ int main()
         }
         if(pos) curc++;
     }
-    if(!pos) ans=0;
+    if(!pos || curm!=0) ans=0;
     else
     {
         for(ll x: cnts) ans=(ans*x)%M;
